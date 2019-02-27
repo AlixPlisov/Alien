@@ -20,6 +20,9 @@ Install
 Requires version Python 3 and newer.
 Just type in console/terminal: 'Python3' and url file 'Flask.py'.
 
+or
+
+Test it now: http://krasnodar.pythonanywhere.com
 
 Contacts
 --------
