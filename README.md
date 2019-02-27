@@ -27,6 +27,6 @@ Test it now: http://krasnodar.pythonanywhere.com
 Contacts
 --------
 
-GitHub: https://github.com/AlixPlisov
-Mail: pllisovalix@gmail.com
-Tel. +79094441987
+GitHub: https://github.com/AlixPlisov  
+Mail: pllisovalix@gmail.com  
+Tel. +79094441987  
