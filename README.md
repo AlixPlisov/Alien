@@ -28,5 +28,5 @@ Contacts
 --------
 
 GitHub: https://github.com/AlixPlisov  
-Mail: pllisovalix@gmail.com  
+Mail: plisovalix@gmail.com  
 Call: +79094441987  
