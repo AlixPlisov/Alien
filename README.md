@@ -3,7 +3,7 @@
 What is it?
 -----------
 
-A simple poll in the html video page that saves the result to the MySQL database.
+A simple poll in the html page in Flask that saves the result to the MySQL database.
 
 Documentation
 -------------
