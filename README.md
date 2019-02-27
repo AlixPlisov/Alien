@@ -29,4 +29,4 @@ Contacts
 
 GitHub: https://github.com/AlixPlisov  
 Mail: pllisovalix@gmail.com  
-Tel. +79094441987  
+Call: +79094441987  
