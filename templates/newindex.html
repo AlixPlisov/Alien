@@ -1,0 +1,104 @@
+<html><head>
+  <meta charset="UTF-8">
+  <title>Молодежное Информационное Равенство</title>
+
+  <link rel="stylesheet" media="screen" href="static/style2.css">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(52557241, "init", {
+        id:52557241,
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/52557241" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+</head>
+
+<body>
+  <!-- multistep form -->
+<form id="msform" action="/finish" method="post">
+  <!-- progressbar -->
+  <!-- fieldsets -->
+  <fieldset>
+    <p style="text-align: center; color: #a3a3a3">
+      <img style="width: 250px;" src="static/image/logo3.png"></p>
+      <p>Имя</p>
+    <input type="text" name="name" placeholder="" required>
+    
+      <p>Возраст</p>
+    <input type="text" name="age" required>
+    
+      <p>Образование</p>
+    <input type="text" name="edu" required>
+      
+      <p>Ваша цель на ближайший год</p>
+    <input type="text" name="target" required>
+<br><br>
+
+        <p style="margin-bottom: 8px;">Пол</p>
+    <div><input class="radio" id="radio-1" type="radio" name="sex" value="Мужской" required>
+    <label for="radio-1">Мужской</label></div>
+<div style="margin-top: 10px;">    <input class="radio" id="radio-" type="radio" name="sex" value="Женский" >
+    <label for="radio-">Женский</label></div><br><br>
+
+    <p style="margin-bottom: 8px">Родной город</p>
+    <input class="radio" id="radio-3" type="radio" name="city" value="Краснодар" required>
+    <label for="radio-3">Краснодар</label>
+<div style="margin-top: 10px;">    <input class="radio" id="radio-4" type="radio" name="city" value="Другой" >
+    <label for="radio-4">Другой</label></div><br><br>
+
+    <p style="margin-bottom: 8px">Семейное положение</p>
+ <input class="radio" id="radio-5" type="radio" name="family" value="Нет пары" required>
+    <label for="radio-5">Нет пары</label>
+<div style="margin-top: 10px;">    <input class="radio" id="radio-6" type="radio" name="family" value="Есть пара">
+    <label for="radio-6">Есть пара</label></div><br><br>
+
+        <p style="margin-bottom: 8px">Дети</p>
+    <input class="radio" id="radio-7" type="radio" name="child" value="Есть" required>
+    <label for="radio-7">Есть</label>
+<div style="margin-top: 10px;">   <input class="radio" id="radio-8" type="radio" name="child" value="Нет" >
+    <label for="radio-8">Нет</label></div><br><br>
+
+        <p style="margin-bottom: 8px">Жильё</p>
+    <input class="radio" id="radio-9" type="radio" name="home" value="Съемное" required>
+    <label for="radio-9">Съемное</label>
+<div style="margin-top: 10px;">    <input class="radio" id="radio-10" type="radio" name="home" value="Собственное" >
+    <label style=" for="radio-10">Собственное</label></div><br><br>
+ 
+        <p style="margin-bottom: 8px">Что вам ближе:</p>
+    <input class="radio" id="radio-11" type="radio" name="work" value="Меньше работать" required>
+    <label for="radio-11">Меньше работать</label>
+<br>
+<div style="margin-top: 10px;">    <div style="margin-top: 10px;"><input class="radio" id="radio-12" type="radio" name="work" value="Больше зарабатывать" >
+    <label for="radio-12">Больше зарабатывать</label></div><br><br></div>
+
+        <p style="margin-bottom: 8px">Автомобиль</p>
+    <input class="radio" id="radio-13" type="radio" name="car" value="Есть" required>
+    <label for="radio-13">Есть</label>
+<div style="margin-top: 10px;">    <input class="radio" id="radio-14" type="radio" name="car" value="Нет" >
+    <label for="radio-14">Нет</label></div><br><br>
+    
+        <p style="margin-bottom: 8px">Отношение к курению</p>
+    <input class="radio" id="radio-15" type="radio" name="smoke" value="Не курит" required>
+    <label for="radio-15">Не курю</label>
+<div style="margin-top: 10px;">    <span style="text-align: right;"><input class="radio" id="radio-16" type="radio" name="smoke" value="Курит">
+    <label for="radio-16">Курю</label></span></div><br><br>
+<br>
+<br> <p style="text-align: center;"><input type="submit" name="next" class="next action-button" value="Готово" style="width: 300px;"></p>
+  </fieldset>
+  <fieldset>
+</form>
+    <script src="{{ url_for('static', filename="js/index.js")}}"></script>
+</body>
+</html>
